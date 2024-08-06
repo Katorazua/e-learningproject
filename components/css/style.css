@@ -1,0 +1,28 @@
+/* hero section card */
+.hero {
+    background-color: rgb(175, 141, 168);
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.nav-tabs {
+    background-color: rgba(0, 0, 0, 0.281);
+    opacity: 8px;
+}
+/* end hero section card */
+
+/* easy assets start */
+.card-boader {
+    margin: 15px;
+}
+/* end easy assets start */
+
+/* ads section */
+.ads-componets {
+    margin-top: 2.5rem;
+}
+
+.ads {
+    border: none;
+}
+/* end ads section */
