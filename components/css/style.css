@@ -19,10 +19,47 @@
 
 /* ads section */
 .ads-componets {
-    margin-top: 2.5rem;
+    margin: 2.5rem;
 }
 
 .ads {
     border: none;
 }
 /* end ads section */
+
+/* ads section */
+.card-componets {
+    margin: 2.5rem;
+}
+
+.card-componets h2 {
+    margin: 2.5rem;
+}
+/* end ads section */
+
+/* footer section */
+.footer-container {
+    width: 100%;
+}
+
+.list-group .list-item {
+    list-style-type: none;
+    padding: 12px;
+}
+
+.footer-items {
+    margin-top: 1rem;
+    padding: 15px;
+}
+
+.mb-2 a{
+    text-decoration: none;
+    color: #333;
+}
+
+.bi-icons,
+.bi {
+ color: #333;
+ padding: 15px;
+}
+/* end footer section */
