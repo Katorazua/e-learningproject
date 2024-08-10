@@ -1,7 +1,10 @@
 /* hero section card */
 .hero {
-    background-color: rgb(175, 141, 168);
+    background-image: url('/images/sch-post1.jpg');
+    background-color: rgba(0, 0, 0, 0.699);
+    opacity: 8px;
     border: none;
+    height: 100;
     margin-bottom: 2rem;
 }
 
