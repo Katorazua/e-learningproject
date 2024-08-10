@@ -1,28 +1,36 @@
 /* hero section card */
 .hero {
     background-image: url('/images/sch-post1.jpg');
-    background-color: rgba(0, 0, 0, 0.699);
-    opacity: 8px;
     border: none;
     height: 100;
     margin-bottom: 2rem;
+    padding: 200px;
 }
 
 .nav-tabs {
-    background-color: rgba(0, 0, 0, 0.281);
+    background-color: rgba(0, 0, 0, 0.534);
     opacity: 8px;
+}
+
+.card-header {
+    background-color: rgba(0, 0, 0, 0.842);
+    opacity: 8px;
+    border: none;
+    border-radius: 0;
 }
 /* end hero section card */
 
 /* easy assets start */
 .card-boader {
-    margin: 15px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 /* end easy assets start */
 
 /* ads section */
 .ads-componets {
-    margin: 2.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
 }
 
 .ads {
