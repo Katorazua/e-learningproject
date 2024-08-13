@@ -1,33 +1,38 @@
-/* hero section card */
+/* General Styles */
+
+/* Hero section */
 .hero {
-    background-image: url('/images/sch-post1.jpg');
-    border: none;
-    height: 100;
+    background-image: url('/images/student4.jpg');
+    width: 100%;
+    height: fit-content;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-bottom: 2rem;
     padding: 200px;
 }
 
+/* Tabs and Card Header */
 .nav-tabs {
-    background-color: rgba(0, 0, 0, 0.534);
-    opacity: 8px;
+    background-color: rgba(0, 0, 0, 0.842);
+    opacity: 0.8;
 }
 
 .card-header {
     background-color: rgba(0, 0, 0, 0.842);
-    opacity: 8px;
+    opacity: 0.8;
     border: none;
     border-radius: 0;
 }
-/* end hero section card */
 
-/* easy assets start */
+/* Easy Assets */
 .card-boader {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-/* end easy assets start */
 
-/* ads section */
+/* Ads Section */
 .ads-componets {
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
@@ -36,19 +41,13 @@
 .ads {
     border: none;
 }
-/* end ads section */
 
-/* ads section */
-.card-componets {
-    margin: 2.5rem;
-}
-
+/* Card Components */
 .card-componets h2 {
     margin: 2.5rem;
 }
-/* end ads section */
 
-/* footer section */
+/* Footer Section */
 .footer-container {
     width: 100%;
 }
@@ -63,14 +62,106 @@
     padding: 15px;
 }
 
-.mb-2 a{
+.mb-2 a {
     text-decoration: none;
     color: #333;
 }
 
 .bi-icons,
 .bi {
- color: #333;
- padding: 15px;
+    color: #fff;
+    padding: 15px;
 }
-/* end footer section */
+
+/* Media Queries */
+
+/* Mobile devices (phones, 600px and down) */
+@media (max-width: 600px) {
+    .hero {
+        padding: 100px 10px; /* Adjust padding for smaller screens */
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem; /* Reduce logo text size */
+    }
+
+    .nav-tabs, .card-header {
+        background-color: rgba(0, 0, 0, 0.7); /* Adjust background for smaller screens */
+    }
+
+    .card-boader {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .ads-componets {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .card-componets h2 {
+        margin: 1rem;
+    }
+
+    .footer-container {
+        text-align: center; /* Center-align text in footer */
+    }
+}
+
+/* Tablet devices (600px to 768px) */
+@media (min-width: 601px) and (max-width: 768px) {
+    .hero {
+        padding: 150px 20px; /* Adjust padding for tablets */
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem; /* Medium text size for tablets */
+    }
+
+    .card-boader {
+        margin-top: 0.75rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .ads-componets {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .card-componets h2 {
+        margin: 1.5rem;
+    }
+
+    .footer-container {
+        text-align: left; /* Left-align text in footer for tablets */
+    }
+}
+
+/* Desktop devices (769px and up) */
+@media (min-width: 769px) {
+    .hero {
+        padding: 200px; /* Default padding for larger screens */
+    }
+
+    .navbar-brand {
+        font-size: 2rem; /* Default logo text size */
+    }
+
+    .card-boader {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .ads-componets {
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .card-componets h2 {
+        margin: 2.5rem;
+    }
+
+    .footer-container {
+        text-align: left; /* Default text alignment for larger screens */
+    }
+}
