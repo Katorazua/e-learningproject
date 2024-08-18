@@ -4,7 +4,7 @@ body {
 }
 /* Hero section */
 .hero {
-    background-image: url('/images/student4.jpg');
+    background-image: url('student4.jpg');
     width: 100%;
     height: fit-content;
     object-fit: cover;
